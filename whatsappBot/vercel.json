@@ -1,0 +1,13 @@
+{
+    "builds":[{
+        "src":"whatsappBot/wsgi.py",
+        "use": "@vercel/python",
+        "config": {"maxLambdaSize": "15mb", "runtime": "Python 3.10.6"}
+    }],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest": "whatsappBot/wsgi.py"
+        }
+    ]
+}
