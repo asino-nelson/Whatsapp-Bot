@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-kglbdnue-gvup)=@4)(t!-1p#)8+wy^3-!ay3i#6%!f_s=dm#o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['whatsapp-boty-bot.vercel.app/', 'localhost']
 
 
 # Application definition
@@ -119,4 +119,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 WHATSAPP_URL = 'https://graph.facebook.com/v19.0/319462661260311/messages'
-WHATSAPP_TOKEN = 'Bearer EAAGtZBcxDv60BO3qrbWqp8HD7Ror3oMUitz07Dk5PLqeReNwS5y1a93FWndT1W0ZCY5JZBwXqjOVDRrCuerXfmY6AemDYTPqL6ZChM61aFZBMbiq3ugvcFb9YLhs5iLPvqBaH8tX1csnzFRDP5ITGdLMWYwU96jDstFhEjUximAOztJufTnwZB9IphFdXAFcn6dZA3DgwlNQH5fnYqNdhEZD'
+WHATSAPP_TOKEN = 'Bearer EAAGtZBcxDv60BOxHI0GOJozm1ZAIr9BpPlvtdiuWDZBwfZCb0A6mOSOcVRrqKLVoC0DRyFfm4JZBUQrsG613rsJzWzSSsMkNFm8Ikoyw1sJciwaXlWAQ2jqz1FxLzZClbCGQTrez5JZA9wZC6AIa9rOw2HHbGPvBonzHAN1fmcr3AhSoWvCpdNty97MdhNHNtLkK3QiW109h6ZBPJcZBRghfUZD'

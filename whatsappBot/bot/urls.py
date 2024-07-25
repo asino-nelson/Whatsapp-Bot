@@ -7,5 +7,5 @@ urlpatterns = [
 ]
 
 
-# Callback URL - 
+# Callback URL - https://whatsapp-boty-bot.vercel.app/
 # Verify token - d0e1a3ec-640e-4cbf-9d90-e644bd74859a
